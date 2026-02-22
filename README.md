@@ -4,6 +4,9 @@
 VProfile is a Java-based web application deployed using a multi-tier architecture. This project demonstrates end-to-end DevOps practices including build, deployment, and environment provisioning.
 
 ---
+## Architecture Diagram
+
+![Architecture](Screenshots/Architecture.png)
 
 ## Architecture Components
 
