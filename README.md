@@ -1,10 +1,36 @@
-# Prerequisites
-#
+# VProfile Project – DevOps Implementation
+
+## Project Overview
+VProfile is a Java-based web application deployed using a multi-tier architecture. This project demonstrates end-to-end DevOps practices including build, deployment, and environment provisioning.
+
+---
+
+## Architecture Components
+
+| Component | Technology | Purpose |
+|----------|------------|---------|
+| Web Server | Nginx | Load balancing |
+| App Server | Tomcat | Runs Java application |
+| Database | MySQL | Stores application data |
+| Cache | Memcached | Improves performance |
+| Messaging | RabbitMQ | Handles asynchronous communication |
+| Search | ElasticSearch | Search functionality |
+
+---
+
+## Prerequisites
+
 - JDK 17 or 21
 - Maven 3.9
 - MySQL 8
+- Git
+- Tomcat 9+
+- Vagrant & VirtualBox (for VM automation)
 
-# Technologies 
+---
+
+## Technologies Used
+
 - Spring MVC
 - Spring Security
 - Spring Data JPA
@@ -13,13 +39,17 @@
 - Tomcat
 - MySQL
 - Memcached
-- Rabbitmq
+- RabbitMQ
 - ElasticSearch
-# Database
-Here,we used Mysql DB 
-sql dump file:
-- /src/main/resources/db_backup.sql
-- db_backup.sql file is a mysql dump file.we have to import this dump to mysql db server
-- > mysql -u <user_name> -p accounts < db_backup.sql
+- Linux
+- Git & GitHub
 
+---
+
+## Build Instructions
+
+Clone repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/Vprofile-Project-Setup-DevOps.git
 
