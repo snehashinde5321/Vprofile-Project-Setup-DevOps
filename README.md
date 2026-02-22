@@ -51,5 +51,5 @@ VProfile is a Java-based web application deployed using a multi-tier architectur
 Clone repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Vprofile-Project-Setup-DevOps.git
+git clone https://github.com/snehashinde5321/Vprofile-Project-Setup-DevOps.git
 
