@@ -9,13 +9,13 @@ VProfile is a Java-based web application deployed using a multi-tier architectur
 ![Architecture](Screenshots/Architecture.png)
 ## Application Screenshots
 ### Login Page
-![Login](Screenshots\LoginPage.png)
+![Login](Screenshots/LoginPage.png)
 
 ### Dashboard
-![Dashboard](Screenshots\HomePage.png)
+![Dashboard](Screenshots/HomePage.png)
 
 ### Database Connected
-![Database](Screenshots\DatabaseConnected.png)
+![Database](Screenshots/DatabaseConnected.png)
 
 ## Architecture Components
 
